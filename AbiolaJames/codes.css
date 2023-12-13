@@ -1,0 +1,125 @@
+
+/* this code gives the background image */
+.aspect1{
+    background-image: url("pictures/1.jpg") ;   
+    height: 300px;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 100%;    
+}
+/* this code affects all that is on the background image */
+.aspect2{    
+    width: 50%;
+    margin: 0% auto;   
+    align-items: center;
+    justify-items: right;    
+    color: #fff;   
+    text-align: justify;   
+  }
+/* this affexts the boostrao gallery button  */
+.first{
+  background-color: transparent;
+    color: #ffffff ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin-top: 2%;
+}
+/* this affects the download gallery button */
+.third{
+    align-self: start; 
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    height: 25px;
+    
+}
+/* this code allows for the div to increase and decrease based on content in it */
+.yeye{
+    width: max-content;    
+}
+
+.move{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+}
+.second{
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 2%;
+    height: 25px;
+    border: 2px solid;
+}
+/* this line of code affexts the body of the site */
+body{
+    margin: 0%;
+}
+.part2{   
+    font-size: 30px;   
+    text-align: center;
+    color: #000; 
+    margin: 0% auto;
+}
+.pics{
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: max-content;
+    min-width: 150px;
+    height: 100px;   
+}
+
+.part3{    
+    margin: 0% auto;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: max-content;
+    min-width: 150px;  
+}
+
+.one{
+    text-align: center;
+    font-size: medium;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    border: blue solid;
+    border-width: 1px;
+}
+
+.two{
+    text-align: center;
+    font-size: medium;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: lightblue;
+    border: blue solid;
+    border-width: 1px;
+}
+
+.pics2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;  
+    width: max-content;
+    min-width: 150px;
+    height: 100px;  
+} 
+
+h1{
+    font-size: 50px;
+    color: goldenrod;
+}
+h4{
+    font-size: large;
+    color:aquamarine;
+}
